@@ -1,0 +1,9 @@
+---
+
+- name: create common configuration files
+  hosts: test-bed
+  remote_user: cisco
+  gather_facts: no
+
+  roles:
+    - cisco_devices

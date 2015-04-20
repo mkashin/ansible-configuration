@@ -1,0 +1,5 @@
+---
+
+- name: create management config
+  template: src=management.j2 dest=/.configs/{{inventory_hostname}}.conf
+  tags: management

@@ -1,0 +1,11 @@
+[test-bed:children]
+r1-r2
+r3-r4
+
+[r1-r2]
+r1 dev_num=1 ansible_ssh_host=192.168.247.11
+r2 dev_num=2 ansible_ssh_host=10.0.0.2
+
+[r3-r4]
+r3 dev_num=3 ansible_ssh_host=10.0.0.3
+r4 dev_num=4 ansible_ssh_host=10.0.0.4
